@@ -7,10 +7,10 @@ describe('shout(string)', function() {
 
 
   function shout('hello'){
-    return shout.toUpperCase();
+    return 'hello'.toUpperCase();
   }
   }))
-  shout();
+  
 
 describe('whisper(string)', function() {
   it('receives one argument and returns it in all lowercase', function() {
