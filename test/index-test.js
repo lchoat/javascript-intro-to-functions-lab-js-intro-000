@@ -32,7 +32,7 @@ describe('logShout(string)', function() {
     console.log.restore()
   })
 })
-function logShout ('hello') {
+function logShout('hello') {
   console.log('hello'.toUpperCase());
 }
 
@@ -63,4 +63,19 @@ describe('sayHiToGrandma(string)', function() {
   it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
+
+  function sayHiToGrandma ('hello'){
+    var cantHear = "I can't hear you!";
+    var loudEnough = "YES INDEED!";
+    var luvU = "I love you, too.";
+
+    if('hello'.toLowerCase('hello') === 'hello'){
+    return cantHear;
+  } else if ('hello'.toUpperCase ('hello') === 'HELLO'){
+    return loudEnough;
+  } else if ("I love you, Grandma." === 'hello'){
+    return luvU;
+  }
+    
+ 
 })
