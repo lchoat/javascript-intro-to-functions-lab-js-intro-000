@@ -76,6 +76,6 @@ describe('sayHiToGrandma(string)', function() {
   } else if ("I love you, Grandma." === 'hello'){
     return luvU;
   }
-    
- 
+
+
 })
